@@ -26,7 +26,7 @@ public class Circle extends Figure
     @Override
     public void print() {
         System.out.println("------Circle------");
-        System.out.println("Your choise - Circle -> 'r' lengths: " + r );//czy this.r?
+        System.out.println("Your choise - Circle -> 'r' lengths: " + r );
         System.out.println("Parimete: " + this.calculatePerimeter());
         System.out.println("Area: " + this.calculateArea());
 
